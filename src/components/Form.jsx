@@ -21,6 +21,7 @@ function Form() {
     const handleSubmit=(e)=>{
        e.preventDefault();
        console.log(name,company,number,email,query); 
+       alert("Thanks for filling the form. Your response has been recorded.")
 
          // data state
         const data={
